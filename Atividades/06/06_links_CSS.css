@@ -1,0 +1,36 @@
+@charset "UTF-08";
+
+.verde {
+    color: green;
+}
+
+.verde:hover {
+    color: red;
+}
+
+.vermelho {
+    color: red;
+}
+
+.vermelho:hover {
+    color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+p, ol, ul, a {
+    font-family: sans-serif;
+    color: green;
+}
+
+ol > li {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
