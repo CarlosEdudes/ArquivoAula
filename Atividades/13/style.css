@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+li > ol{
+    height: 0;
+    overflow: hidden;
+    transition: height 2s;
+}
+
+li:hover {
+    background-color: #ccc;
+}
+
+li:hover > ol {
+    height: 40px;
+}
