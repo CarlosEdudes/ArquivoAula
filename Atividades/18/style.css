@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+fieldset {
+    width: 60%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.pessoais{
+   display: block;
+}

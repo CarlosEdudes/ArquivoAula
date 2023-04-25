@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vagas de TI</title>
+</head>
+<body>
+
+    <h1>Formulário de inscrição</h1>
+
+    <form action="#" method="post" class="formLogin">
+
+        <fieldset class="pessoais">
+
+            <legend>Dados Pessoais</legend>
+
+            <label for="">Email</label>
+            <input type="email" placeholder="example123@example.com" required>
+
+            <label for="">Telefone</label>
+            <input type="tel" placeholder="(xx) xxxxx-xxxx" required>
+
+            <label for="">Filhos</label>
+            <input type="number" min="0" max="100" placeholder="0 a 100" required>
+
+            <label for="">Data de nascimento</label>
+            <input type="date" min="1900-01-01" required>
+
+            <p>Sexo</p>
+
+            <input type="radio" name="sexo" value="M">
+            <label for="">Masculino</label>
+            <input type="radio" name="sexo" value="F">
+            <label for="">Feminino</label>
+            <input type="radio" name="sexo" value="N">
+            <label for="">Prefiro não dizer</label>
+
+            <label for="">Estado</label>
+            <select name="estado" required>
+                <option value="0">Selecione</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Área de interesse</legend>
+
+            <label for=""><input type="checkbox" name="Front-End" value="Front-End">Front-End</label>
+            <label for=""><input type="checkbox" name="Back-End" value="Back-End">Back-End</label>
+            <label for=""><input type="checkbox" name="Data-Science" value="Data-Science">Data-Science</label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Curriculum</legend>
+
+            <label for="">Anexe aqui o seu Curriculum</label>
+            <input type="file">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Escreva suas experiências</legend>
+            <textarea name="experiências" cols="80" rows="10" style="resize: none;" maxlength="300" placeholder="Digite aqui suas experiências..." required></textarea>
+
+            <textarea name="contrato" cols="80" rows="10" style="resize: none;" readonly>Aqui abaixo está os termos do contrato.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat error commodi earum a inventore in odit asperiores, aspernatur odio tenetur labore, minus illo consectetur illum assumenda amet molestias quasi consequatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur veritatis eius ipsam odit velit dolor commodi esse saepe reiciendis, illo similique amet vero obcaecati vel ex provident tempora quibusdam illum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum unde corporis cum nostrum delectus. Suscipit et incidunt non neque sit? Quaerat vitae ex ut distinctio reprehenderit illo eos labore quos?</textarea>
+
+            <label for=""><input type="checkbox" required>Li e aceito os termos</label>
+
+        </fieldset>
+
+        <input type="submit" value="Enviar Formulário">
+        <input type="reset" value="Limpar formulário">
+
+    </form>
+</body>
+</html>

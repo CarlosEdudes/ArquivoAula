@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.formLogin {
+    width: 250px;
+    margin: 50px auto 0;
+    font-family: sans-serif;
+}
+
+.formLogin fieldset {
+    background: #ccc;
+}
+
+legend {
+    font-size: larger;
+    border: 2px black solid;
+    background-color: #ccc;
+}
+
+.formLogin label {
+    margin-top: 10px;
+    display: block;
+}
+
+#log, #pass, .btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+#log:focus, #pass:focus {
+    background-color: rgb(211, 211, 255);
+}
+
+#pass {
+    margin-top: 8px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 128, 0, 0.712);
+    transition: 0.4s;
+}
