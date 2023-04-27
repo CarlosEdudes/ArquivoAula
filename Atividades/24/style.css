@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+
+    transition-property: width, height;
+    transition-duration: 2s, 4s;
+    transition-timing-function: cubic-bezier(67, -0.38, .5, 1.5);
+    transition-delay: 0s, 0.8s;
+}
+
+div:hover {
+    width: 500px;
+    height: 300px;
+}

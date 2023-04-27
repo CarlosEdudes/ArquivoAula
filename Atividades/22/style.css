@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(blue, gray, green);
+}
+
 #radius {
     background: orange;
     width: 200px;
